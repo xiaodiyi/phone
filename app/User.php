@@ -15,9 +15,11 @@ class User extends Authenticatable
      *
      * @var array
      */
+    //你好
     protected $fillable = [
         'name', 'email', 'password','phone',
-//        'name', 'email', 'password',修改
+        'name', 'email', 'password',
+
     ];
 
     /**
